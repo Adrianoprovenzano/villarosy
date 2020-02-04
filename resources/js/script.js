@@ -88,11 +88,11 @@ $(document).ready(function() {
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
             nav.css("display", "none");
-            nav.addClass('proNav');
+            nav.addClass('vis');
         } else {
             icon.addClass('ion-navicon-round');
             icon.removeClass('ion-close-round');
-            nav.removeClass('proNav');
+            nav.removeClass('vis');
         }        
     });
 	
@@ -108,7 +108,7 @@ var icon = $('.js--nav-icon i');
 if ($(window).width() > 767){
 
 nav.css("display", "block");
-nav.removeClass('proNav');
+nav.removeClass('vis');
 
 icon.addClass('ion-close-round');
 
