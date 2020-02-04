@@ -56,7 +56,9 @@
         margin: 0 0 4% 0;
     }
     
-    
+    .proNav{
+        height:100vh!important;
+    }
     .main-nav { display: none; }
     .mobile-nav-icon {
         display: block;
@@ -66,11 +68,7 @@
     }
     
     .main-nav {
-/*
-        float: left;
-        margin-top: 30px;
-        margin-left: 25px;
-*/
+         height: 10vh;
     }
     
     .main-nav li {
@@ -114,6 +112,18 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+
+
+    /* ----------------------------------------------- */
+/* MEALS */
+/* ----------------------------------------------- */
+
+.places-showcase li {
+    display: block;
+    float: left;
+    width: 50%;
+    padding:.03rem;
+}
     
 }
 
