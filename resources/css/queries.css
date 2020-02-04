@@ -59,18 +59,19 @@
     .proNav{
         height:100vh!important;
     }
-    .main-nav { display: none; }
+    .main-nav { 
+        display: none;
+        float: none;
+        list-style: none;
+        margin-top: -15%;
+        height: 10vh;
+    }
     .mobile-nav-icon {
         display: block;
         position: fixed;
         top:1%;
         right: 3%;
     }
-    
-    .main-nav {
-         height: 10vh;
-    }
-    
     .main-nav li {
         display: block;
     }
