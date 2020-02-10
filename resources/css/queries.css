@@ -94,8 +94,12 @@
     }
     .main-nav li {
         display: block;
+        margin-left:0;
+        transition: all .4s ease-in-out;
     }
-    
+    .main-nav li:hover {
+        transform: scale(1.9);
+    }
     .main-nav li a:link,
     .main-nav li a:visited {
         display: block;
